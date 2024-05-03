@@ -6,12 +6,13 @@ import { useState } from "react";
 
 //components
 import Header from "../../components/header/Header";
+import ListItem from "../../components/listItem/ListItem";
 
 const Home = () => {
   const [value, setValue] = useState();
   const [category, SetCategory] = useState();
   const [type, SetType] = useState("Entrada");
-  console.log("Valor: ", value);
+  console.log("Valor: ", value, category, type);
   return (
     <div className={styles.container}>
       <Header pageName="Fluxo de caixa" />
@@ -35,6 +36,7 @@ const Home = () => {
         />
         <button type="submit">Registrar</button>
       </form>
+      <ListItem/>
     </div>
   );
 };
