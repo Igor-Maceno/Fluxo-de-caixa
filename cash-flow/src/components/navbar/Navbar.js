@@ -6,6 +6,7 @@ const Navbar = () => {
     <nav className={styles.container}>
       <ul>
         <li>Fluxo de caixa</li>
+        <li>Estacionamento</li>
         <li>Relatório</li>
         <li>Configurações</li>
         <li>Sair</li>

@@ -6,7 +6,7 @@ const ListItem = () => {
   return (
     <div className="container">
         <span>7</span>
-        <span>+ R$7,90</span>
+        <span> R$7,90</span>
         <span>Papelaria</span>
         <span>01/05/24 - 09:47</span>
         <EditIcon/>
